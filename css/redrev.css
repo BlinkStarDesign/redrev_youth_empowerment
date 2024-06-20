@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 .responsive-menu .toggle-menu {
   font-size: 24px;
   color: #E31B25;
-  margin-bottom: 35px;
+  margin-top: 25px;
 }
 
 .responsive-menu .menu {
@@ -306,13 +306,12 @@ h1, h2, h3, h4, h5, h6 {
 .about-container{
   display: flex;
   flex-direction: column;
-  margin: auto;
-  margin-top:-20px;
+  
+ 
   
   align-items: center;
-  background-color: #fff;
   padding: 20px;
-  box-shadow: 5px 5px 6px 4px rgba(0, 0, 0, 0.2);
+ 
 }
 
 #about .service-item .service-header {
