@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
   Projects Styles
 -------------------------------------------------------*/
 .service-box {
-  margin-left: 50px;
+  margin-left: 20px;
   margin-top: 20px;
   background-color: #E31B25;
   padding: 2.5rem 1.3rem;
@@ -733,10 +733,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-info .info-item {
   text-align: center;
-  padding: 30px;
-  background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  border-radius: 4px;
 }
 
 .contact-info .info-item i {
@@ -759,7 +755,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info .info-item a:hover {
-  color: #0077b6;
+  color: #E31B25;
 }
 
 /*------------------------------------------------------
