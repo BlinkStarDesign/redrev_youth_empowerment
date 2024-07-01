@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .int-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -659,14 +659,15 @@ h1, h2, h3, h4, h5, h6 {
   TEAM STYLE
 -------------------------------------------------------*/
 #team{
-  margin-top: 250px;
+  margin-top:150px;
 }
 .team-img {
+  padding-top: 50px;
   text-align: center;
 }
 
 .team-img img {
-  padding-top: 90px;
+  padding-top: 10px;
   max-width: 100%;
   height:auto;
   
@@ -674,19 +675,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .team-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .team-img img {
-    width: 60%;
+    width: 100%;
   }
 }
 
 @media (min-width: 992px) {
   .team-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
