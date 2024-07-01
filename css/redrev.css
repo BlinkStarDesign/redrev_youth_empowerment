@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #777777;
   font-size: 13px;
-  padding: 8px 15px;
+  padding: 8px 7px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -255,6 +255,29 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #0078ff;
 }
 
+/*int image*/
+.int-img {
+  background-color: ;
+  text-align: center;
+  padding: px 0;
+}
+
+.int-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .int-img img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .int-img img {
+    width: 60%;
+  }
+}
 /*------------------------------------------------------
 	Basic Layout Styles 
 --------------------------------------------------------*/
@@ -361,8 +384,12 @@ h1, h2, h3, h4, h5, h6 {
 #agri-buz {
   padding-bottom: 80px;
   margin-top: 100px;
-  background: #3d3f3f;
+  /*background: #3d3f3f;*/
   color: white;
+  background-image: url("images/maize.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .img img{
@@ -373,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-service-item {
-  background-image: url('path/to/your/image.jpg');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -381,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   padding: 20px 20px;
-  
+  background-color: rgba(0, 0, 0, 0.6); 
   
 }
 .service-content h3 {
@@ -395,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .single-service-item:hover {
   background: #E31B25 none repeat scroll 0 0;
+  background-color: rgba(235, 16, 16, 0.7);
   color: #fff;
 }
 .single-service-item:hover .service-icon {
@@ -625,8 +653,43 @@ h1, h2, h3, h4, h5, h6 {
   color: #9d9d9d;
   margin-bottom: 15px;
   display: block;
-}
 */
+
+/*------------------------------------------------------
+  TEAM STYLE
+-------------------------------------------------------*/
+#team{
+  margin-top: 250px;
+}
+.team-img {
+  text-align: center;
+}
+
+.team-img img {
+  padding-top: 90px;
+  max-width: 100%;
+  height:auto;
+  
+}
+
+@media (max-width: 767px) {
+  .team-img img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-img img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-img img {
+    width: 50%;
+  }
+}
+
 
 /*------------------------------------------------------
 	Contact Styles 
