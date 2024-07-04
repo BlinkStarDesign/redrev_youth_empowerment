@@ -821,6 +821,159 @@ h1, h2, h3, h4, h5, h6 {
   color: #E31B25;
 }
 
+/*---------WhatsApp----------*/
+.popup {
+  position: fixed;
+  z-index: 1;
+  right: 20px;
+  bottom: 80px;
+  width: 350px;
+  height: 350px;
+  overflow: auto;
+  background-color: white;
+  display: none;
+  animation-duration: 5s;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+
+.popup-header {
+  width: 350px;
+  height: 70px;
+  background-color: #2DB742;
+  display: flex;
+  place-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 10px;
+}
+
+
+.pop-body {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pop-contact-card{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  place-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ededed;
+  border-left: 4px solid rgb(11, 235, 11);
+
+}
+.pop-contact-card:hover{
+  box-shadow: 1px 1px #888888;
+}
+
+
+.pop-details {
+  display: flex;
+  margin-left: 10px;
+  height: 100%;
+  flex-direction: column;
+  place-content: center;
+ padding-top: 10px;
+  gap: 2px;
+}
+.avator {
+  height: 40px;
+  width: 40px;
+
+  border-radius: 20px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.title-head-title {
+  font-size: small;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 20px;
+  color: white;
+}
+
+
+.popup-header img {
+
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp{
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/app.png');
+  background-repeat: no-repeat;
+  background-size:70%;
+  background-color: #25D366;
+  background-position: center;
+  position: fixed;
+}
+
+.whatsapp img{
+  width: 30px;
+  height: auto;
+}
+
+/*.help{
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  text-align: center;
+  font-size: x-small;
+  border-radius: 5px;
+  display: block;
+}
+
+.whatsapp-section {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  gap: 10px;
+  cursor: pointer;
+ 
+}
+  */
+.whatsapp-button {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.whatsapp-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.whatsapp-text {
+  font-size: 16px;
+  font-weight: bold;
+}
 /*------------------------------------------------------
 	Footer Styles 
 --------------------------------------------------------*/
